@@ -4,7 +4,7 @@
   "description": "a space shooter game",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "main": "node server.js"
   },
   "keywords": [
     "space",
@@ -14,11 +14,8 @@
   "author": "Brett Connolly",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.13.4",
     "connect": "^3.4.1",
+    "express": "^4.13.4",
     "serve-static": "^1.10.2"
-  },
-  "scripts": {
-    "main": "node server.js"
   }
 }
